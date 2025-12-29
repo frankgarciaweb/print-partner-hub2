@@ -1,4 +1,4 @@
-import { Printer, Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,10 +8,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <a href="#" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center">
-                <Printer className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="font-display text-xl font-bold">PrintPartner</span>
+              <img 
+                src="/img/plotter-pro-logo.png" 
+                alt="Plotter Pro Logo" 
+                className="h-8 md:h-10 w-auto object-contain max-w-[200px]"
+              />
             </a>
             <p className="text-sm text-muted-foreground mb-6">
               Plataforma B2B para revendedores de impresión en gran formato. 
